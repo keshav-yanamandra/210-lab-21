@@ -7,6 +7,29 @@ using namespace std;
 
 const int MIN_NR = 10, MAX_NR = 99, MIN_LS = 5, MAX_LS = 20;
 
+class Goat {
+    private:
+        int age;
+        string name;
+        string color;
+
+        //using AI I created these strings---
+        string names[15] = {
+            "Billy", "Charlie", "Daisy", "Rocky", "Max",
+            "Luna", "Buddy", "Coco", "Rosie", "Milo",
+            "Pepper", "Sunny", "Ruby", "Oscar", "Nala"
+        };
+
+        string colors[15] = {
+            "White", "Black", "Brown", "Gray", "Tan",
+            "Cream", "Red", "Gold", "Silver", "Beige",
+            "Spotted", "Black and White", "Brown and White",
+            "Gray and White", "Golden Brown"
+        };
+    public:
+
+};
+
 class DoublyLinkedList {
 private:
     struct Node {
