@@ -27,6 +27,17 @@ class Goat {
             "Gray and White", "Golden Brown"
         };
     public:
+        Goat() {
+        age = rand() % 20 + 1;
+        name = names[rand() % 15];
+        color = colors[rand() % 15];
+        }
+
+        Goat(int a, string n, string c) {
+            age = a;
+            name = n;
+            color = c;
+        }
 
 };
 
