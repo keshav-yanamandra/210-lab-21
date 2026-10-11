@@ -170,6 +170,8 @@ public:
 
 // Driver program
 int main() {
+    srand(time(0));
+
     DoublyLinkedList list;
     int size = rand() % (MAX_LS-MIN_LS+1) + MIN_LS;
 
