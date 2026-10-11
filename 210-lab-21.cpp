@@ -9,7 +9,7 @@
 
 using namespace std;
 
-const int MIN_NR = 10, MAX_NR = 99, MIN_LS = 5, MAX_LS = 20;
+const int MIN_LS = 5, MAX_LS = 20;
 
 class Goat {
     private:
@@ -44,7 +44,7 @@ class Goat {
         }
 
         void print() {
-            cout << "Name: " << name << ", Age: " << age << ", Color: " << color << endl;
+            cout << "    " << name << " (" << color << ", " << age << ")" << endl;
         }
 };
 
@@ -180,10 +180,10 @@ int main() {
         list.push_back(g);
     }
 
-    cout << "List forward: ";
+    cout << "Forward:" << endl;
     list.print();
 
-    cout << "List backward: ";
+    cout << "Backward:" << endl;
     list.print_reverse();
 
     cout << "Deleting list, then trying to print.\n";
